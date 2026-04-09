@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url(../assets/fonts/montserrat/static/Montserrat-Bold.ttf);
+}
+.container-refund {
+  background-color: black;
+  color: white;
+  padding: 50px;
+}
+
+.header-refund h1 {
+  font-family: "montserrat";
+  font-size: 70px;
+  margin-bottom: 50px;
+}
+
+.article-refund {
+  font-family: sans-serif;
+  font-size: 16px;
+  max-width: 438px;
+}
+.article-refund p {
+  margin-top: 25px;
+}
+
+.footer-refund {
+  border-top: 1px solid rgb(177, 171, 171);
+  font-family: "montserrat";
+  font-size: 16px;
+  max-width: 787px;
+  padding: 30px 0;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 780px) {
+  .header-refund h1 {
+    font-family: "montserrat";
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .wrapper-refund .header-refund h1 {
+    font-size: 40px;
+  }
+  .container-refund {
+    padding: 30px;
+  }
+}/*# sourceMappingURL=refund-policy.css.map */

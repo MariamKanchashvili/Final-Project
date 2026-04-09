@@ -1,0 +1,140 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container-faq {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.section-faq1 .header-faq h1 {
+  font-size: 70px;
+  margin: 10px 40px;
+  padding: 32px;
+}
+
+.main-faq {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.faq-side1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 18px;
+}
+.faq-side1 a {
+  color: white;
+}
+.faq-side1 .map-faq {
+  width: 400px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.faq-side2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-self: center;
+}
+.faq-side2 input {
+  border: 2px solid rgb(135, 88, 237);
+  background-color: black;
+  border-radius: 15px;
+  height: 5vh;
+  width: 210px;
+}
+.faq-side2 input:hover {
+  background-color: rgb(135, 88, 237);
+  border: 2px solid white;
+}
+.faq-side2 textarea {
+  padding: 0 12px;
+  height: 12vh;
+  width: 100%;
+  border: 2px solid rgb(135, 88, 237);
+  background-color: black;
+  border-radius: 15px;
+}
+.faq-side2 textarea:hover {
+  background-color: rgb(135, 88, 237);
+  border: 2px solid white;
+}
+
+.faq-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.faq-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.btn-faq {
+  background-color: rgb(135, 88, 237);
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+.btn-faq:hover {
+  border: 2px solid white;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 900px) {
+  .section-faq1 .header-faq h1 {
+    font-size: 60px;
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+  .main-faq {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .faq-side1 {
+    line-height: 0.2;
+  }
+  .contact-faq {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+.section-faq2 {
+  background: #251742;
+}
+
+@media screen and (max-width: 500px) {
+  .section-faq1 .header-faq h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .map-faq {
+    width: 200px;
+    height: 100px;
+  } /*ზედმეტია,სხვანაირად ვერ გაისტილა*/
+}
+@media screen and (max-width: 320px) {
+  .header-faq h1 {
+    font-size: 32px;
+  }
+}/*# sourceMappingURL=faq.css.map */

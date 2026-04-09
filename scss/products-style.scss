@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+$main-color: rgb(135, 88, 237);
+$border-color:rgb(215, 209, 209);
+ $font-size: 14px ;
+  $font-family:sans-serif ;
+ @mixin font-styles{
+     font-size:$font-size ;
+    font-family:$font-family ;
+ }
+    
+.container-page2{
+    background-color: black;
+    color: white;
+}
+.homebar-page2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    @include font-styles;
+    img{width: 20px;}
+}
+.aside-page2{
+display: flex;
+flex-direction: column;
+gap: 20px;
+@include font-styles;
+
+.head-name2{
+    font-size: 16px;
+    border-bottom: $border-color;
+}
+.list-items-page2{
+    padding: 10px 0;
+ .special{text-decoration: underline;}
+}
+}
+.range-box{border-bottom: 1px solid $border-color;}
+
+.main-page2{
+    display: flex;
+    align-items: center;
+   gap: 10px;
+}
+.nav-bar2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .burger-page2{display: none;border: 1px solid white;}
+}
+
+.products-page2{
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 10px;
+}
+.item-page2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    position: relative;
+    .bage-page2{
+        position: absolute;
+        top: 0;
+        background-color: $main-color;
+        color: white;
+    }
+   .image-page2{
+    width: 300px;
+    height: 50vh;
+
+   }
+}
+.price-box-page2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    .old{text-decoration: line-through;}
+}

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+@font-face {
+    font-family:"montserrat" ;
+    src: url(../assets/fonts/montserrat/static/Montserrat-Bold.ttf);
+
+}
+
+    @font-face {
+        font-family: "roboto";
+        src: url(../assets/fonts/roboto/static/Roboto-Bold.ttf);
+    }
+
+
+
+// აქედანაა main scss 
+.body-terms{
+   background-color: black;
+   color: white;
+
+}
+.container-terms{
+   max-width: 1100px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 60px;
+   
+}
+.wrapper-terms{
+   display: flex;
+   flex-direction: column;
+  gap: 25px;
+
+  .header-terms{
+ text-align:left;
+ h1{
+    font-family: "montserrat";
+    font-size: 70px;
+    padding: 30px;
+}
+  }
+
+.main-terms{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+padding: 30px;
+font-family: sans-serif;
+line-height: 1.6;
+
+
+    .side1-terms{
+    flex: 1;
+    max-width: 438px;
+    }
+    
+    
+    
+    
+    .side2-terms{
+    flex: 1;
+    max-width: 438px;
+    font-family: sans-serif;
+    ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+list-style: decimal;}
+    p{margin-bottom: 25px; }
+    a{ color: white;
+    text-decoration: underline;}
+    li{list-style: decimal;}
+    
+    }
+ }   
+    .footer-terms{
+        max-width: 1000px;
+        p{
+        font-family: "montserrat";
+        font-weight: bolder;
+        font-size: 15px;}
+        border-top:1px solid rgb(177, 171, 171);
+        padding-top: 30px;
+        max-width: 900px
+    }
+
+     
+}
+// -----------------------Terms&conditions-Responsive 
+@media screen and (max-width:500px){
+    .main-terms{
+        flex-direction: column; }
+
+        .wrapper-terms{.header-terms{h1{font-size: 40px;}} }
+    
+    }
+
+    @media screen and (max-width:335px){
+        .wrapper-terms{.header-terms{h1{font-size: 32px;}} }
+    }
+     
+

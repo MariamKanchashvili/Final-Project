@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url(../assets/fonts/montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "roboto";
+  src: url(../assets/fonts/roboto/static/Roboto-Bold.ttf);
+}
+.body-terms {
+  background-color: black;
+  color: white;
+}
+
+.container-terms {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+.wrapper-terms {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.wrapper-terms .header-terms {
+  text-align: left;
+}
+.wrapper-terms .header-terms h1 {
+  font-family: "montserrat";
+  font-size: 70px;
+  padding: 30px;
+}
+.wrapper-terms .main-terms {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 30px;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+.wrapper-terms .main-terms .side1-terms {
+  flex: 1;
+  max-width: 438px;
+}
+.wrapper-terms .main-terms .side2-terms {
+  flex: 1;
+  max-width: 438px;
+  font-family: sans-serif;
+}
+.wrapper-terms .main-terms .side2-terms ol {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  list-style: decimal;
+}
+.wrapper-terms .main-terms .side2-terms p {
+  margin-bottom: 25px;
+}
+.wrapper-terms .main-terms .side2-terms a {
+  color: white;
+  text-decoration: underline;
+}
+.wrapper-terms .main-terms .side2-terms li {
+  list-style: decimal;
+}
+.wrapper-terms .footer-terms {
+  max-width: 1000px;
+}
+.wrapper-terms .footer-terms p {
+  font-family: "montserrat";
+  font-weight: bolder;
+  font-size: 15px;
+}
+.wrapper-terms .footer-terms {
+  border-top: 1px solid rgb(177, 171, 171);
+  padding-top: 30px;
+  max-width: 900px;
+}
+
+@media screen and (max-width: 500px) {
+  .main-terms {
+    flex-direction: column;
+  }
+  .wrapper-terms .header-terms h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 335px) {
+  .wrapper-terms .header-terms h1 {
+    font-size: 32px;
+  }
+}/*# sourceMappingURL=Terms&Conditions.css.map */
