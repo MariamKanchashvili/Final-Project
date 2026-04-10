@@ -22,6 +22,10 @@
   width: 100%;
 }
 
+.section-faq1 {
+  padding: 30px;
+  width: 100%;
+}
 .section-faq1 .header-faq h1 {
   font-size: 70px;
   margin: 10px 40px;
@@ -83,6 +87,16 @@
   border: 2px solid white;
 }
 
+.map-faq {
+  width: 100%;
+  max-width: 400px;
+}
+.map-faq iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 200px;
+}
+
 .faq-wrapper {
   display: flex;
   flex-direction: column;
@@ -119,6 +133,9 @@
   text-align: center;
   font-size: 42px;
   font-family: "montserrat-bold";
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .nav-wrapper-2 nav {
@@ -135,6 +152,9 @@
   border-bottom: 1px solid white;
   padding-bottom: 10px;
 }
+.search p {
+  white-space: nowrap;
+}
 
 .setting-up-faq {
   display: flex;
@@ -143,13 +163,13 @@
 }
 
 .general-a {
-  color: rgb(135, 88, 237);
-  border-bottom: 2px solid rgb(135, 88, 237);
-  padding-bottom: 10px;
+  color: white;
 }
 
 .setting-a {
-  color: white;
+  color: rgb(135, 88, 237);
+  border-bottom: 2px solid rgb(135, 88, 237);
+  padding-bottom: 10px;
 }
 
 .question-faq {
@@ -195,6 +215,11 @@
   margin-bottom: 10px;
 }
 
+.list li {
+  list-style: decimal;
+  margin-left: 15px;
+}
+
 @media screen and (max-width: 900px) {
   .section-faq1 .header-faq h1 {
     font-size: 60px;
@@ -213,18 +238,91 @@
     margin-bottom: 10px;
   }
 }
+@media screen and (max-width: 600px) {
+  .nav-wrapper-2 nav {
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+  }
+  .nav-item-faq {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .search {
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+  .setting-up-faq {
+    margin-left: 15px;
+  }
+  .section-faq2 {
+    background-color: black;
+    padding: 40px;
+  }
+  .section-faq2 h2 {
+    font-size: 35px;
+    background-color: #251742;
+    width: 118%;
+    height: 15vh;
+    position: relative;
+    right: 10%;
+    display: flex;
+    align-items: center;
+  }
+}
 @media screen and (max-width: 500px) {
   .section-faq1 .header-faq h1 {
     font-size: 40px;
     margin-bottom: 30px;
+  }
+  .section-faq1 span {
+    flex-wrap: wrap;
   }
   .map-faq {
     width: 200px;
     height: 100px;
   } /*ზედმეტია,სხვანაირად ვერ გაისტილა*/
 }
+@media screen and (max-width: 410px) {
+  .faq-side1 h1 {
+    font-size: 30px;
+  }
+  .search {
+    flex-shrink: 0;
+    gap: 20px;
+    white-space: nowrap;
+  }
+  .section-faq2 h2 {
+    right: 15%;
+    width: 127%;
+  }
+  .search svg {
+    margin-left: 50px;
+  }
+}
 @media screen and (max-width: 320px) {
   .header-faq h1 {
     font-size: 32px;
+  }
+  .question-faq {
+    width: 135%;
+    position: relative;
+    right: 18%;
+    margin: 0;
+    border-top: none;
+  }
+  .wrapper-question img {
+    margin-right: -5px;
+  }
+  .search {
+    width: 110%;
+    position: relative;
+    right: 10%;
+  }
+  .section-faq2 h2 {
+    right: 17%;
+    width: 134%;
   }
 }/*# sourceMappingURL=faq-general.css.map */
