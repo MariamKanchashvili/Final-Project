@@ -143,13 +143,13 @@
 }
 
 .general-a {
-  color: white;
-}
-
-.setting-a {
   color: rgb(135, 88, 237);
   border-bottom: 2px solid rgb(135, 88, 237);
   padding-bottom: 10px;
+}
+
+.setting-a {
+  color: white;
 }
 
 .question-faq {
@@ -195,11 +195,6 @@
   margin-bottom: 10px;
 }
 
-.list li {
-  list-style: decimal;
-  margin-left: 15px;
-}
-
 @media screen and (max-width: 900px) {
   .section-faq1 .header-faq h1 {
     font-size: 60px;
@@ -232,4 +227,4 @@
   .header-faq h1 {
     font-size: 32px;
   }
-}/*# sourceMappingURL=faq.css.map */
+}/*# sourceMappingURL=faq-general.css.map */

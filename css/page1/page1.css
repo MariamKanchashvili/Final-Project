@@ -21,6 +21,7 @@
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 .section1 {
@@ -56,6 +57,7 @@
 
 .card {
   display: flex;
+  flex-wrap: wrap;
   max-width: 600px;
   border-radius: 25px;
   border: 1px solid none;
@@ -63,6 +65,7 @@
   bottom: 200px;
   right: 15px;
   background-color: rgb(135, 88, 237);
+  z-index: 1;
 }
 
 .second-side {
@@ -78,6 +81,7 @@
   margin-left: 20px;
   position: relative;
   top: 70px;
+  z-index: 2;
 }
 
 .text {
@@ -123,6 +127,7 @@ button span {
   margin-left: 50px;
   padding: 30px;
   margin-top: 50px;
+  flex-wrap: wrap;
 }
 .header-section2 h2 {
   font-size: 42px;
@@ -148,6 +153,7 @@ button span {
   padding: 20px 0;
   margin: 0 auto;
   max-width: 1200px;
+  width: 100%;
 }
 .product-wrapper .product-card {
   position: relative;
@@ -286,6 +292,7 @@ button span {
   gap: 20px;
   padding: 60px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .card-section4 {
@@ -336,6 +343,8 @@ button span {
   display: flex;
   align-items: center;
   gap: 10px;
+  width: 100%;
+  z-index: 1;
 }
 
 .poster-4 {
@@ -403,6 +412,7 @@ button span {
 
 .wrapper-section7 {
   padding: 15px;
+  overflow: hidden;
 }
 
 .header-section7 {
@@ -618,4 +628,16 @@ button span {
 .games8 img {
   position: relative;
   bottom: 85px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .first-side {
+    left: 10%;
+    right: 0;
+    top: 81px;
+  }
+  .second-side img {
+    right: 13%;
+  }
 }/*# sourceMappingURL=page1.css.map */

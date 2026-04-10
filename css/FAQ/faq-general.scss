@@ -110,8 +110,8 @@ background-color:  #251742;
 .nav-wrapper-2{ nav{display: flex; justify-content: space-between;align-items: center; margin: 35px 0;}}
 .search{display: flex;align-items: center; gap: 40px; border-bottom: 1px solid white;padding-bottom: 10px;}
 .setting-up-faq{ display: flex; gap: 40px; margin: 15px 0;}
-.general-a{ color: white;}
-.setting-a{ color: $main-color; border-bottom: 2px solid $main-color;padding-bottom: 10px;}
+.general-a{color: $main-color; border-bottom: 2px solid $main-color;padding-bottom: 10px;}
+.setting-a{ color: white;}
 .question-faq{
     display: flex;
     align-items: flex-start;
@@ -149,11 +149,6 @@ background-color:  #251742;
     gap: 10px;
     margin-bottom: 10px
 }
-
-.list{li{list-style: decimal;     margin-left: 15px;}}
-
-
-
 
 
 
