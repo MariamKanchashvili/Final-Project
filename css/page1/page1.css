@@ -12,9 +12,9 @@
 }
 @font-face {
   font-family: "roboto";
-  src: url(../assets/fonts/roboto/static/Roboto-Thin.ttf);
+  src: url(../assets/fonts/roboto/static/Roboto-Bold.ttf);
 }
-.container {
+.container-page1 {
   height: 100vh;
   background-image: url(../assets/images/1page.avif);
   background-position: center;
@@ -69,6 +69,7 @@
   width: 500px;
   height: 100vh;
   border-radius: 30px;
+  z-index: 1;
 }
 
 .second-side img {
@@ -193,10 +194,10 @@ button span {
   color: white;
   border: none;
   border-radius: 25px;
-  background: linear-gradient(90deg, #7b4dff, #a855f7);
+  background: rgb(135, 88, 237);
   cursor: pointer;
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 10px 30px;
   font-size: 15px;
   font-family: "montserrat-bold";
 }
@@ -384,15 +385,15 @@ button span {
 }
 .text-box6 a {
   background-color: rgb(135, 88, 237);
-  padding: 8px 15px;
   border-radius: 25px;
 }
 .text-box6 a span {
   color: white;
 }
 .text-box6 a {
-  font-size: 15px;
-  font-family: "motserrat-bold";
+  font-size: 17px;
+  font-family: "montserrat-bold";
+  padding: 8px 15px;
 }
 
 .container-section7 {
@@ -458,13 +459,14 @@ button span {
   position: relative;
 }
 .scrollbar7 .games7 {
-  width: 233px;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
 .scrollbar7 img {
-  width: 233px;
+  width: 310px;
   height: 100%;
   cursor: pointer;
 }
@@ -496,14 +498,39 @@ button span {
   position: absolute;
   top: 0;
 }
+.scrollbar7 .games-button {
+  background-color: rgb(135, 88, 237);
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 50%;
+  position: relative;
+  left: 26%;
+}
+.scrollbar7 .games-button:hover {
+  background-color: white;
+}
+.scrollbar7 .games-button span {
+  font-size: 15px;
+  font-family: "montserrat-bold";
+  color: white;
+}
+.scrollbar7 .games-button span:hover {
+  color: rgb(135, 88, 237);
+  text-decoration: underline;
+}
 
 .form-box8 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("../assets/images/form.png");
+  background-image: url(../assets/images/form.png);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
   height: 65vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
 }
 
 .text-box8 {
@@ -512,6 +539,8 @@ button span {
   flex-direction: column;
   gap: 15px;
   color: white;
+  position: relative;
+  z-index: 2;
 }
 .text-box8 p {
   font-size: 42px;
@@ -541,7 +570,7 @@ button span {
   background: none;
   height: 30px;
 }
-.input8 input input:visited {
+.input8 input input:focus {
   border-color: red;
 }
 

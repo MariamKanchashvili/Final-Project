@@ -14,11 +14,11 @@ $main-color:rgb(135, 88, 237);
 }
 @font-face { 
   font-family: "roboto";
-  src: url(../assets/fonts/roboto/static/Roboto-Thin.ttf);
+  src: url(../assets/fonts/roboto/static/Roboto-Bold.ttf);
 }
 
 // section1
-.container {
+.container-page1 {
   height: 100vh;
   background-image: url(../assets/images/1page.avif);
   background-position: center;
@@ -77,7 +77,7 @@ $main-color:rgb(135, 88, 237);
     width: 500px;
   height: 100vh;
   border-radius: 30px;
- 
+ z-index: 1;
 
  }
 .second-side img {
@@ -86,6 +86,7 @@ $main-color:rgb(135, 88, 237);
   margin-left: 20px;
   position: relative;
     top: 70px;
+    
 
 
 }
@@ -222,10 +223,10 @@ min-width: 300px;
   color: white;
   border:none;
   border-radius: 25px;
-   background: linear-gradient(90deg, #7b4dff, #a855f7);
+   background: $main-color;
   cursor:pointer;
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 10px 30px;
   font-size: 15px;
    font-family: "montserrat-bold";
 
@@ -391,8 +392,8 @@ min-width: 300px;
     color: white;
   h2{font-size:70px ;font-family:"montserrat-bold" ;}
   h3{font-size:  22px; ;font-family:"roboto" ;margin-bottom: 10px;}
-  a{background-color:$main-color ;padding:8px 15px ;border-radius: 25px;
-  span{color: white;} font-size:15px ;font-family:"motserrat-bold" ;}
+  a{background-color:$main-color ; ;border-radius: 25px;
+  span{color: white;} font-size:17px ;font-family:"montserrat-bold" ;padding:8px 15px}
   
   
   
@@ -439,14 +440,18 @@ img{width: 20px;cursor: pointer;}
  
    
   .games7{
-    width: 233px;
+    
     object-fit: cover;
     overflow: hidden;
+    height: 100%;
+    width: 100%;
+   
   }
   img{
-    width: 233px;
+    width: 310px;
     height: 100%;
     cursor: pointer;
+    
   }
   .arrow{width: 20px;}
   p{font-size: 16px;font-family: sans-serif;font-weight: bold;}
@@ -464,6 +469,26 @@ img{width: 20px;cursor: pointer;}
     top: 0;
   
   }
+ .games-button{
+  background-color: $main-color;
+  padding: 10px 20px;
+   cursor: pointer;
+   width: 50%;
+   position: relative;
+   left: 26%;
+ &:hover{
+    background-color: white;
+  
+  }
+
+  span{font-size: 15px;
+  font-family: "montserrat-bold";
+  color: white; 
+&:hover{color: $main-color;text-decoration: underline;}}
+
+ 
+ }
+
 
 }
 // section 8
@@ -473,8 +498,13 @@ img{width: 20px;cursor: pointer;}
   flex-direction: column;
   align-items: center;
   justify-content: center;
-background-image: url("../assets/images/form.png");
+background-image: url(../assets/images/form.png);
+background-size: cover;
+background-position: center;
+overflow: hidden;
  height: 65vh;
+background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
 
 }
 .text-box8{
@@ -483,6 +513,8 @@ background-image: url("../assets/images/form.png");
   flex-direction: column;
   gap: 15px;
   color: white;
+  position: relative;
+  z-index: 2;
   p{font-size: 42px;font-family: "montserrat-bold";}
   span{margin-bottom: 25px;font-size: 16px;font-family: sans-serif;}
 }
@@ -498,7 +530,7 @@ background-image: url("../assets/images/form.png");
   border-radius: 10px;
   background: none;
   height: 30px;
-  input:visited{border-color: red;}
+  input:focus{border-color: red;}
   // გაწითლება მინდა ინფუთის ,სპანის და სვგ დაჭერის შემდეგ  
 }
   
