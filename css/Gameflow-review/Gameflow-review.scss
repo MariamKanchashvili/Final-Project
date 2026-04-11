@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+$main-color:rgb(135, 88, 237);
+$seen-color:rgb(107, 107, 107);
+
+@font-face {
+    font-family: "proxima";
+    src: url(../assets/fonts/Proxima/Proxima\ Nova\ Regular/);
+}
+.container-review{
+    background-color: black;
+    color: white;
+}
+.nav-review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: "proxima";
+    font-size: 16px;
+}
+.bar-review{
+    display: flex;
+    gap: 10px;
+    a{color: white;}
+    .now-open{color: $seen-color;}
+}
+.control-review{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 20px;
+    img{max-width: 20px;width: 100%;}
+
+}
+.preview{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    a{color: white;}
+}
+.preview-left{
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+    color: $seen-color;
+    a{color: $seen-color}
+}
+
+.divider{
+    font-size: 24px;
+    font-weight: 300; 
+    margin: 0 5px;}
+    .burger-review{
+     display: none;
+     .burger-wrapper{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 20px;
+    a{color: white;}
+     img{max-width: 20px;width: 100%;}} }
+    
+
+    @media screen and (max-width:480px){
+        .bar-review{display: none;}
+        .control-review{display: none;}
+        .preview-left{display: none;}
+        .preview{display: none;}
+        .burger-review{display: block;}
+
+    }

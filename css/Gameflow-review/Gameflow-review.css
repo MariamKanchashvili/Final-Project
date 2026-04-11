@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "proxima";
+  src: url(../assets/fonts/Proxima/Proxima\ Nova\ Regular/);
+}
+.container-review {
+  background-color: black;
+  color: white;
+}
+
+.nav-review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-family: "proxima";
+  font-size: 16px;
+}
+
+.bar-review {
+  display: flex;
+  gap: 10px;
+}
+.bar-review a {
+  color: white;
+}
+.bar-review .now-open {
+  color: rgb(107, 107, 107);
+}
+
+.control-review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 20px;
+}
+.control-review img {
+  max-width: 20px;
+  width: 100%;
+}
+
+.preview {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.preview a {
+  color: white;
+}
+
+.preview-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: rgb(107, 107, 107);
+}
+.preview-left a {
+  color: rgb(107, 107, 107);
+}
+
+.divider {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0 5px;
+}
+
+.burger-review {
+  display: none;
+}
+.burger-review .burger-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 20px;
+}
+.burger-review .burger-wrapper a {
+  color: white;
+}
+.burger-review .burger-wrapper img {
+  max-width: 20px;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .bar-review {
+    display: none;
+  }
+  .control-review {
+    display: none;
+  }
+  .preview-left {
+    display: none;
+  }
+  .preview {
+    display: none;
+  }
+  .burger-review {
+    display: block;
+  }
+}/*# sourceMappingURL=Gameflow-review.css.map */
