@@ -181,6 +181,7 @@ width: 100%;
 
 .product-card{
 position: relative;
+z-index: 1;
 display: flex;
 align-items: center;
 flex-direction: column;
@@ -245,6 +246,7 @@ min-width: 300px;
   }
 .sale-badge{
   position: absolute;
+  z-index: 2;
   top: 0;
   left: 24px;
    background-color:rgb(135, 88, 237) ;
@@ -361,6 +363,7 @@ min-width: 300px;
   gap: 10px;
   width: 100%;
   z-index: 1;
+  justify-content: center;
 }
 
 
@@ -452,7 +455,7 @@ img{width: 20px;cursor: pointer;}
  
    
   .games7{
-    
+    position: relative;
     object-fit: cover;
     overflow: hidden;
     height: 100%;
@@ -463,7 +466,7 @@ img{width: 20px;cursor: pointer;}
     width: 310px;
     height: 100%;
     cursor: pointer;
-    
+   &:hover{transform: scale(1.2);} 
   }
   .arrow{width: 20px;}
   p{font-size: 16px;font-family: sans-serif;font-weight: bold;}
@@ -479,6 +482,7 @@ img{width: 20px;cursor: pointer;}
     text-align: center;
     position: absolute;
     top: 0;
+    z-index: 2;
   
   }
  .games-button{

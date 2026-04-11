@@ -157,6 +157,7 @@ button span {
 }
 .product-wrapper .product-card {
   position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -215,6 +216,7 @@ button span {
 
 .sale-badge {
   position: absolute;
+  z-index: 2;
   top: 0;
   left: 24px;
   background-color: rgb(135, 88, 237);
@@ -345,6 +347,7 @@ button span {
   gap: 10px;
   width: 100%;
   z-index: 1;
+  justify-content: center;
 }
 
 .poster-4 {
@@ -469,6 +472,7 @@ button span {
   position: relative;
 }
 .scrollbar7 .games7 {
+  position: relative;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
@@ -479,6 +483,9 @@ button span {
   width: 310px;
   height: 100%;
   cursor: pointer;
+}
+.scrollbar7 img:hover {
+  transform: scale(1.2);
 }
 .scrollbar7 .arrow {
   width: 20px;
@@ -507,6 +514,7 @@ button span {
   text-align: center;
   position: absolute;
   top: 0;
+  z-index: 2;
 }
 .scrollbar7 .games-button {
   background-color: rgb(135, 88, 237);
