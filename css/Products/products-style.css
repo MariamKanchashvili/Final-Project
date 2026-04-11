@@ -73,23 +73,69 @@
   gap: 10px;
   text-align: center;
   position: relative;
+  text-align: center;
 }
 .item-page2 .bage-page2 {
   position: absolute;
   top: 0;
   background-color: rgb(135, 88, 237);
   color: white;
+  border-radius: 15px;
+  padding: 8px 15px;
 }
 .item-page2 .image-page2 {
   width: 300px;
   height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  cursor: pointer;
+}
+.item-page2 .image-page2 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .price-box-page2 {
   display: flex;
   align-items: center;
   gap: 5px;
+  text-align: center;
+  justify-content: center;
 }
 .price-box-page2 .old {
   text-decoration: line-through;
+  text-align: center;
+}
+
+.cart-button {
+  background-color: rgb(135, 88, 237);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-family: sans-serif;
+  cursor: pointer;
+  border-radius: 25px;
+  width: 50%;
+  position: relative;
+  left: 26%;
+}
+.cart-button:hover {
+  background-color: white;
+  color: rgb(135, 88, 237);
+  text-decoration: underline;
+}
+
+.cart-button span {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+}
+.cart-button span:hover {
+  color: rgb(135, 88, 237);
+  text-decoration: underline;
 }/*# sourceMappingURL=products-style.css.map */
