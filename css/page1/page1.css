@@ -154,6 +154,7 @@ button span {
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
+  overflow: hidden;
 }
 .product-wrapper .product-card {
   position: relative;
