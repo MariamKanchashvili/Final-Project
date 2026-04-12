@@ -7,6 +7,18 @@
 }
 
 @font-face {
+  font-family: "montserrat";
+  src: url(../assets/fonts/montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "proxima";
+  src: url(../assets/fonts/Proxima/Proxima\ Nova\ Regular/);
+}
+@font-face {
+  font-family: "roboto";
+  src: url(../assets/fonts/roboto/static/Roboto-Bold.ttf);
+}
+@font-face {
   font-family: "proxima";
   src: url(../assets/fonts/Proxima/Proxima\ Nova\ Regular/);
 }
@@ -17,7 +29,7 @@
 
 .nav-review {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 20px;
   font-family: "proxima";
@@ -90,6 +102,115 @@
   width: 100%;
 }
 
+.game-review {
+  background-color: black;
+  padding: 20px;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.dots {
+  display: none;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gray;
+}
+.dot.active {
+  background-color: white;
+}
+
+.side2 {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.side2 h3 {
+  font-size: 42px;
+  font-family: "montserrat";
+}
+.side2 h4 {
+  font-size: 14px;
+  font-family: "proxima";
+  font-weight: 300;
+}
+.side2 span {
+  font-size: 22px;
+  font-family: "roboto";
+}
+.side2 .old {
+  text-decoration: line-through;
+}
+.side2 p {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.side2 .quantity-box {
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 5vh;
+  gap: 8px;
+}
+.side2 .quantity-box img {
+  width: 25px;
+}
+.side2 .quantity-box span {
+  font-size: 18px;
+  font-family: "proxima";
+}
+.side2 .button-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.side2 .add {
+  background-color: rgb(135, 88, 237);
+  border: none;
+  border-radius: 25px;
+  padding: 8px 15px;
+  color: white;
+  font-size: 15px;
+  font-family: "montserrat";
+  font-weight: bold;
+}
+.side2 .add:hover {
+  text-decoration: underline;
+}
+.side2 .buy {
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 15px;
+  color: rgb(135, 88, 237);
+  font-size: 15px;
+  font-family: "montserrat";
+  font-weight: bold;
+}
+.side2 .buy:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 793px) {
+  .dots {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
 @media screen and (max-width: 480px) {
   .bar-review {
     display: none;
