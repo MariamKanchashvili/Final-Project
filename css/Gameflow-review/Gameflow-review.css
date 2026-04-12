@@ -25,6 +25,7 @@
 .container-review {
   background-color: black;
   color: white;
+  padding: 40px;
 }
 
 .nav-review {
@@ -201,6 +202,62 @@
 }
 .side2 .buy:hover {
   text-decoration: underline;
+}
+
+.description-review {
+  padding: 20px;
+  position: relative;
+}
+
+.photos {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.photos .bordered {
+  border: 1px solid rgb(94, 86, 40);
+}
+
+.review-text {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  position: relative;
+  bottom: 60px;
+}
+
+.article {
+  width: 50%;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.article-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgb(107, 107, 107);
+  gap: 10px;
+  height: 7vh;
+  margin-top: 10px;
+}
+.article-nav img {
+  width: 15px;
+}
+
+.nob {
+  border: none;
+}
+
+.first {
+  margin: 78px 0;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 @media screen and (max-width: 793px) {

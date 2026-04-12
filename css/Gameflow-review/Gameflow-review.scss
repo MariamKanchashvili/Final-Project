@@ -31,6 +31,7 @@ $seen-color:rgb(107, 107, 107);
 .container-review{
     background-color: black;
     color: white;
+    padding: 40px;
 }
 .nav-review{
     display: flex;
@@ -162,8 +163,101 @@ $seen-color:rgb(107, 107, 107);
 }
 
     }
+// section 2
+.description-review{
+    padding: 20px;
+    position: relative;
+}
+   .photos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+.bordered{border: 1px solid rgb(94, 86, 40);}
+}
 
-   
+.review-text{
+    display: flex;
+    justify-content: space-between;
+   gap: 10px;
+       position: relative;
+    bottom: 60px;
+}
+.article{
+   width: 50%;
+   font-family: sans-serif;
+   font-size: 16px;
+}
+.article-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid $seen-color;
+    gap: 10px;
+    height: 7vh;
+    margin-top: 10px;
+    img{width: 15px;}}
+    .nob{border: none;}
+
+    .first{
+        margin: 78px 0;
+    }
+
+.second{
+    display: flex;
+  flex-direction: column;     
+  gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:793px){
     .dots {
@@ -173,56 +267,6 @@ $seen-color:rgb(107, 107, 107);
 margin-top: 10px;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     @media screen and (max-width:480px){
