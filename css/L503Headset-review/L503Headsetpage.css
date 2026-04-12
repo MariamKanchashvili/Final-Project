@@ -389,6 +389,7 @@
   align-items: center;
   justify-content: space-around;
   width: 100%;
+  padding: 20px;
 }
 .comments-nav img {
   width: 15px;
@@ -469,6 +470,7 @@
 
 .might-review {
   background-color: black;
+  padding-top: 40px;
 }
 .might-review .header-review {
   font-family: sans-serif;
@@ -476,7 +478,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 40px 0;
+  margin: 0 0 40px 0;
 }
 
 .product-wrapper {
@@ -680,4 +682,4 @@
     position: relative;
     right: 16%;
   }
-}/*# sourceMappingURL=L503 Headset page.css.map */
+}/*# sourceMappingURL=L503Headsetpage.css.map */
