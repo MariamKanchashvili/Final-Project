@@ -194,7 +194,6 @@ $seen-color:rgb(107, 107, 107);
 .review-text{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
    gap: 10px;
        position: relative;
     bottom: 60px;
@@ -224,6 +223,13 @@ $seen-color:rgb(107, 107, 107);
     display: flex;
   flex-direction: column;     
   gap: 10px;
+}
+.review-icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    
 }
 // section 3
 .customer-review{

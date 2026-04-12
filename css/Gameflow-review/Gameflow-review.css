@@ -236,7 +236,6 @@
 .review-text {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   gap: 10px;
   position: relative;
   bottom: 60px;
@@ -272,6 +271,13 @@
 .second {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+}
+
+.review-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   gap: 10px;
 }
 
