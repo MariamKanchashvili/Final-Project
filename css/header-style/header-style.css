@@ -6,13 +6,12 @@
   list-style: none;
 }
 
-.container {
+.container-header-main {
   background-color: rgb(37, 21, 61);
   font-family: sans-serif;
   padding: 30px;
 }
-
-.inner-box {
+.container-header-main .inner-box-header-main {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -20,47 +19,45 @@
   margin: 0 auto;
   max-width: 1200px;
 }
-
-.logo {
-  max-width: 48px;
-  display: flex;
-  flex-shrink: 0;
-}
-
-span {
+.container-header-main .inner-box-header-main span {
   font-weight: bold;
   font-size: 22px;
   color: white;
 }
 
-.contact-box {
+.logo-header-main {
+  max-width: 48px;
+  display: flex;
+  flex-shrink: 0;
+}
+
+.contact-box-header-main {
   display: flex;
   align-items: center;
   gap: 15px;
   flex-shrink: 0;
 }
 
-.navigation-box {
+.navigation-box-header-main {
   display: flex;
   align-items: center;
   gap: 20px;
   min-width: 0;
 }
-
-ul {
+.navigation-box-header-main nav ul {
   display: flex;
   gap: 20px;
   font-size: 16px;
   align-items: center;
   flex-wrap: nowrap;
 }
-
-a {
+.navigation-box-header-main a {
   color: white;
-  gap: 10px;
 }
-
-.button {
+.navigation-box-header-main a:hover {
+  color: rgb(135, 88, 237);
+}
+.navigation-box-header-main .button-header-main {
   max-width: 110px;
   padding: 6px 7px;
   background-color: rgb(37, 21, 61);
@@ -68,68 +65,62 @@ a {
   display: flex;
   gap: 10px;
 }
-.button a {
+.navigation-box-header-main .button-header-main svg {
+  fill: white;
+  max-width: 24px;
+}
+.navigation-box-header-main .button-header-main a {
   font-size: 16px;
   display: flex;
   align-items: center;
 }
-.button svg {
-  fill: white;
-  max-width: 24px;
+.navigation-box-header-main .button-header-main a:hover {
+  color: rgb(198, 188, 188);
 }
-
-svg {
+.navigation-box-header-main .cart-header-main {
   fill: white;
   max-width: 36px;
   display: flex;
 }
 
-.dropdown-menu {
+.dropdown-menu-header-main {
   display: none;
 }
 
-a:hover {
-  color: rgb(135, 88, 237);
-}
-
-.button a:hover {
-  color: rgb(198, 188, 188);
-}
-
-.burger-menu {
+.burger-menu-header-main {
   display: none;
 }
 
 @media screen and (max-width: 640px) {
-  .container {
+  .container-header-main {
     background-color: black;
     padding: 15px;
   }
-  .burger-menu {
+  .burger-menu-header-main {
     display: block;
   }
-  .burger-menu .navigation-box {
+  .navigation-box-header-main {
     margin: 0 45px;
   }
-  nav {
+  .navigation-box-header-main nav {
     display: none;
     justify-content: flex-end;
   }
 }
 @media screen and (max-width: 430px) {
-  .container {
+  .container-header-main {
     padding: 10px;
   }
-  .logo {
+  .logo-header-main {
     width: 30px;
   }
-  span {
+  .inner-box-header-main span {
     font-size: 15px;
   }
-  .burger-menu img {
+  .burger-menu-header-main img {
     width: 35px;
   }
-  .navigation-box svg {
+  .navigation-box-header-main svg {
     max-width: 26px;
   }
 }/*# sourceMappingURL=header-style.css.map */
