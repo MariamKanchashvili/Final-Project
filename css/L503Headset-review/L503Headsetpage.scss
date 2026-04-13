@@ -6,7 +6,16 @@
     text-decoration: none;
 }
 
-
+@import url(../footer/footer.css);
+.products-footer,.store-footer,.policy-footer{
+    display:flex ;
+    flex-direction: column;
+    gap: 15px;
+}
+@import url(../header-style/header-style.css);
+.container-header-main {
+  background-color:black;}
+.navigation-box-header-main { .button-header-main{background-color: black;}    }
 
 $main-color:rgb(135, 88, 237);
 $seen-color:rgb(107, 107, 107);
@@ -404,7 +413,7 @@ height: 100%;
 
 display: flex;
 gap: 20px;
-padding: 40px 0;
+padding: 50px 0;
 margin: 0 auto;
 max-width: 1200px;
 width: 100%;
