@@ -9,7 +9,7 @@
 .container-header-main {
   background-color: rgb(37, 21, 61);
   font-family: sans-serif;
-  padding: 30px;
+  padding: 20px;
 
   .inner-box-header-main {
     display: flex;
@@ -44,15 +44,20 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  min-width: 0;
+ flex-shrink: 0;
 
   nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+
     ul {
       display: flex;
       gap: 20px;
       font-size: 16px;
       align-items: center;
-      flex-wrap: nowrap;
+      white-space: nowrap;
     }
   }
 
@@ -91,7 +96,7 @@
   .cart-header-main {
     fill: white;
     max-width: 36px;
-    display: flex;
+    display: block;
   }
 }
 

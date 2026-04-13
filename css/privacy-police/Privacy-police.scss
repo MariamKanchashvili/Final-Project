@@ -5,19 +5,24 @@
     list-style: none;
     text-decoration: none;
 }
+  @import url(../header-style/header-style.css);
+@import url(../footer/footer.css);
+.container-header-main {
+  background-color:black;}
+.navigation-box-header-main { .button-header-main{background-color: black;}    }
 
 @font-face {
     font-family:"montserrat";
     src: url(../assets/fonts/montserrat/static/Montserrat-Bold.ttf);
 }
    $bordercolor:rgb(177, 171, 171); 
+ 
 
 .container-privacy{
     background-color: black;
     padding: 60px;
-    max-width: 1200px;
-    width: 100%;
     color: white;
+    margin: 0 auto;
 }
 .wrapper-privacy{
     display: flex;
@@ -40,13 +45,12 @@
     font-family: sans-serif;
     flex-wrap: wrap;
 
-    .side1-privacy{
-        flex: 1;
-        max-width: 438px;
+    .side1-privacy,.side2-privacy{
+        flex: 1 1 400px;
+
     }
     .side2-privacy{
-        flex: 1;
-        max-width: 438px;
+      
          p{margin-bottom: 25px;}
         ol{
             padding-left: 20px;

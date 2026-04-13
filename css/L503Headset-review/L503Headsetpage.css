@@ -18,10 +18,6 @@
   font-family: "roboto";
   src: url(../assets/fonts/roboto/static/Roboto-Bold.ttf);
 }
-@font-face {
-  font-family: "proxima";
-  src: url(../assets/fonts/Proxima/Proxima\ Nova\ Regular/);
-}
 .container-review {
   background-color: black;
   color: white;
@@ -124,8 +120,7 @@
   -o-object-position: 50% 50%;
      object-position: 50% 50%;
 }
-.product-photo .product-photo img {
-  width: 100%;
+.product-photo img {
   overflow: hidden;
   cursor: pointer;
 }
@@ -250,7 +245,7 @@
   justify-content: space-between;
   gap: 10px;
   position: relative;
-  bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .article {
@@ -394,9 +389,6 @@
 .comments-nav img {
   width: 15px;
 }
-.comments-nav .first-side {
-  font-weight: bold;
-}
 .comments-nav .second-side {
   display: flex;
   gap: 20px;
@@ -418,6 +410,7 @@
   padding: 10px 0;
   gap: 10px;
   position: relative;
+  font-family: sans-serif;
 }
 .comment span {
   font-size: 16px;
@@ -614,6 +607,9 @@
     justify-content: flex-start;
     gap: 10px;
     padding: 10px;
+  }
+  .comments-nav .product-photo img {
+    width: 100%;
   }
   .comment .burger-text {
     display: block;

@@ -1,9 +1,33 @@
+@import url(../header-style/header-style.css);
+@import url(../footer/footer.css);
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+}
+
+.container-header-main {
+  background-color: black;
+}
+
+.navigation-box-header-main .button-header-main {
+  background-color: black;
+}
+
+.products-footer, .store-footer, .policy-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.store-footer ul {
+  margin-left: -15px;
+}
+
+.policy-footer ul {
+  margin-left: -25px;
 }
 
 @font-face {
@@ -126,6 +150,7 @@ ul li {
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
   gap: 10px;
+  padding: 22px;
 }
 
 .item-page2 {

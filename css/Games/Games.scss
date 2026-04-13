@@ -5,6 +5,20 @@
     text-decoration: none;
     list-style: none;
 }
+@import url(../header-style/header-style.css);
+@import url(../footer/footer.css);
+.container-header-main {
+  background-color:black;}
+.navigation-box-header-main { .button-header-main{background-color: black;}    }
+.products-footer,.store-footer,.policy-footer{
+    display:flex ;
+    flex-direction: column;
+    gap: 15px;
+}
+// .store-footer{ul{margin-left:-15px}}
+// .policy-footer{ul{margin-left:-25px}};
+
+
 
 $main-color: rgb(135, 88, 237);
 $border-color:rgb(215, 209, 209);
@@ -41,8 +55,6 @@ grid-template-columns: 162px 1fr;
 grid-template-areas:
 "homebar homebar"
 "aside main"
-
-
 ;
 }
 .homebar-page2{
@@ -56,6 +68,7 @@ grid-template-areas:
 .main-page2{
   grid-area: main;
 }
+
 
 
 .homebar-page2{

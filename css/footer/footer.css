@@ -65,7 +65,6 @@
   justify-content: space-between;
   align-items: flex-start;
   border-top: 1px solid rgb(177, 171, 171);
-  margin: 40px;
   padding: 20px;
   gap: 70px;
 }
@@ -102,12 +101,10 @@
   margin-top: 20px;
   font-size: 15px;
 }
-
-h2, span {
+.payment-methods h2, .payment-methods span {
   font-family: "montserrat";
 }
-
-li, a {
+.payment-methods li, .payment-methods a {
   font-family: sans-serif;
 }
 

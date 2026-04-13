@@ -163,7 +163,6 @@ button span {
   align-items: center;
   flex-direction: column;
   flex-shrink: 0;
-  min-width: 300px;
 }
 .product-wrapper .product-card img:hover {
   transform: scale(1.05);

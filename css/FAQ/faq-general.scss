@@ -5,6 +5,12 @@
     list-style: none;
     text-decoration: none;
 }
+@import url(../header-style/header-style.css);
+@import url(../footer/footer.css);
+.container-header-main {
+  background-color:black;}
+.navigation-box-header-main { .button-header-main{background-color: black;}    }
+
 $main-color:rgb(135, 88, 237);
 @font-face {
     font-family: "montserrat-bold";
@@ -18,8 +24,6 @@ $main-color:rgb(135, 88, 237);
     background-color: black;
     color: white;
   
-    max-width: 1200px;
-    width: 100%;
 }
 .section-faq1{padding: 30px;width: 100%;
    
@@ -109,15 +113,13 @@ gap: 25px
 // section-question
 
 .section-faq2{
-     max-width: 1200px;
-    width: 100%;
 background-color:  #251742;
     padding: 70px;
     font-family: "proxima";
     h2{text-align: center; font-size: 42px; font-family:"montserrat-bold" ;display: flex;justify-content: center;width: 100%;}}
 
 .nav-wrapper-2{ nav{display: flex; justify-content: space-between;align-items: center; margin: 35px 0;}}
-.search{display: flex;align-items: center; gap: 40px; border-bottom: 1px solid white;padding-bottom: 10px;
+.search{display: flex;align-items: center; gap: 40px; border-bottom: 1px solid white;padding-bottom: 10px;cursor: pointer;
 p{white-space: nowrap;}}
 .setting-up-faq{ display: flex; gap: 40px; margin: 15px 0;}
 .general-a{ color: white;}
@@ -141,9 +143,10 @@ p{white-space: nowrap;}}
     display: flex;
    justify-content: space-between;
     align-items: center;
+    cursor: pointer;
     gap: 10px;
     width: 100%;
-    img{width: 20px;margin-right: 40px;}
+    img{width: 20px;margin-right: 40px;cursor: pointer;}
     p{margin: 10px 0;}
 }
 .main-wrap{

@@ -1,3 +1,5 @@
+@import url(../header-style/header-style.css);
+@import url(../footer/footer.css);
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,14 @@
   font-family: "montserrat";
   src: url(../assets/fonts/montserrat/static/Montserrat-Bold.ttf);
 }
+.container-header-main {
+  background-color: black;
+}
+
+.navigation-box-header-main .button-header-main {
+  background-color: black;
+}
+
 .container-shipping {
   background-color: black;
   color: white;

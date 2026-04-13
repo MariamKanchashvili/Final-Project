@@ -16,8 +16,11 @@
         src: url(../assets/fonts/roboto/static/Roboto-Bold.ttf);
     }
 
-
-
+@import url(../header-style/header-style.css);
+@import url(../footer/footer.css);
+.container-header-main {
+  background-color:black;}
+.navigation-box-header-main { .button-header-main{background-color: black;}    }
 // აქედანაა main scss 
 .body-terms{
    background-color: black;

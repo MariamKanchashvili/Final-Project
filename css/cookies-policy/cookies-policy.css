@@ -1,9 +1,19 @@
+@import url(../header-style/header-style.css);
+@import url(../footer/footer.css);
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+}
+
+.container-header-main {
+  background-color: black;
+}
+
+.navigation-box-header-main .button-header-main {
+  background-color: black;
 }
 
 @font-face {
@@ -13,8 +23,6 @@
 .container-cookies {
   background-color: black;
   padding: 60px;
-  max-width: 1200px;
-  width: 100%;
   color: white;
 }
 
