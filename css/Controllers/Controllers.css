@@ -30,6 +30,10 @@
   margin-left: -25px;
 }
 
+.box-footer {
+  padding: 22px;
+}
+
 @font-face {
   font-family: "montserrat";
   src: url(../assets/fonts/montserrat/static/Montserrat-Bold.ttf);

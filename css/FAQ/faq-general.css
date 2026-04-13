@@ -17,6 +17,10 @@
   background-color: black;
 }
 
+.box-footer {
+  padding: 22px;
+}
+
 @font-face {
   font-family: "montserrat-bold";
   src: url(../assets/fonts/montserrat/static/Montserrat-Bold.ttf);
