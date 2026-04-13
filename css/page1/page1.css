@@ -88,13 +88,11 @@
   padding: 20px 60px;
   border-radius: 25px;
 }
-
-p {
+.text p {
   color: white;
   font-size: 22px;
 }
-
-h2 {
+.text h2 {
   color: white;
   font-size: 60px;
   margin: 22px 0;
@@ -422,7 +420,10 @@ button span {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 30px;
+  max-width: 1300px;
+  margin-left: 50px;
+  padding: 30px;
+  flex-wrap: wrap;
 }
 .header-section7 h2 {
   font-size: 42px;

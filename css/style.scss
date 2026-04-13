@@ -17,3 +17,13 @@
 @import url(../css/refund-policy/refund-policy.css);
 @import url(../css/shipping-policy/shipping-policy.css);
 @import url(../css/Terms&Conditions/Terms&Conditions.css);
+.container-header-main {
+  background-color: rgb(37, 21, 61);}
+.navigation-box-header-main {
+     .button-header-main{background-color: rgb(37, 21, 61);}    }
+     .products-footer,.store-footer,.policy-footer{
+    display:flex ;
+    flex-direction: column;
+    gap: 15px;
+}
+.box-footer{padding: 30px;}
