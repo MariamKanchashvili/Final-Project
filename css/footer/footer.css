@@ -14,28 +14,28 @@
   font-family: "roboto";
   src: url(../assets/fonts/roboto/static/Roboto-Bold.ttf);
 }
-.box {
+.box-footer {
   background-color: black;
   color: white;
   padding: 15px;
 }
 
-.main {
+.main-footer {
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
 
-.logo {
+.logo-footer {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   margin: 0 auto;
 }
-.logo img {
+.logo-footer img {
   max-width: 60px;
   margin-bottom: 10px;
 }
-.logo .wrapper {
+.logo-footer .wrapper-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,24 +43,24 @@
   width: fit-content;
   margin-top: 68px;
 }
-.logo span {
+.logo-footer span {
   font-size: 22px;
   font-weight: bold;
 }
 
-.menu {
+.menu-footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 }
-.menu a {
+.menu-footer a {
   color: white;
 }
-.menu li {
+.menu-footer li {
   line-height: 3;
 }
 
-.footer {
+.footer-original {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -112,15 +112,15 @@ li, a {
 }
 
 @media screen and (max-width: 900px) {
-  .main {
+  .main-footer {
     grid-template-columns: 1fr;
     gap: 40px;
     text-align: center;
   }
-  .wrapper {
+  .wrapper-footer {
     margin-top: 0;
   }
-  .footer {
+  .footer-original {
     flex-direction: column;
   }
 }
@@ -130,30 +130,30 @@ li, a {
   }
 }
 @media screen and (max-width: 580px) {
-  .menu {
+  .menu-footer {
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
   }
-  .main {
+  .main-footer {
     padding: 0;
     gap: 10px;
   }
 }
 @media screen and (max-width: 400px) {
-  .menu {
+  .menu-footer {
     display: flex;
     flex-flow: column wrap;
     gap: 30px;
     text-align: start;
     margin: 30px 0;
   }
-  .menu li {
+  .menu-footer li {
     line-height: 2.3;
   }
-  .logo {
+  .logo-footer {
     margin: 0;
   }
-  .footer {
+  .footer-original {
     margin: 0;
     padding: 0;
   }
