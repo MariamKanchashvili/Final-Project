@@ -17,6 +17,7 @@
     background-color: black;
     color: white;
     padding: 15px;
+    position: relative;
 }
 .main-footer{
    display: grid;
@@ -66,7 +67,7 @@ li{ line-height: 3;}
 
 .footer-original{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
     border-top: 1px solid rgb(177, 171, 171);
 //    margin: 40px;
@@ -104,6 +105,22 @@ li{ line-height: 3;}
 h2,span{ font-family: "montserrat" ;}
 li,a{ font-family: sans-serif ;}
 }
+
+.chathead{
+    
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(136, 88, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
 
 
 @media screen and (max-width:900px){
