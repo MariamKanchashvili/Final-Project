@@ -427,7 +427,7 @@
 .comment {
   border-top: 2px solid rgb(107, 107, 107);
   margin: 10px 0;
-  padding: 10px 0;
+  padding: 30px;
   gap: 10px;
   position: relative;
   font-family: sans-serif;
