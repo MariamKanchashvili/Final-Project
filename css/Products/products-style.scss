@@ -8,13 +8,14 @@
 @import url(../header-style/header-style.css);
 @import url(../footer/footer.css);
 .container-header-main {
-  background-color:black;}
+  background-color:black;  padding: 10px;}
 .navigation-box-header-main { .button-header-main{background-color: black;}    }
 .products-footer,.store-footer,.policy-footer{
     display:flex ;
     flex-direction: column;
     gap: 15px;
 }
+.navigation-box-header-main{nav{margin-top: 30px;}}
 .box-footer{padding: 22px;}
 
 $main-color: rgb(135, 88, 237);

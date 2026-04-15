@@ -19,6 +19,7 @@
 @import url(../css/Terms&Conditions/Terms&Conditions.css);
 .container-header-main {
   background-color: rgb(37, 21, 61);
+  padding: 10px;
 }
 
 .navigation-box-header-main .button-header-main {
@@ -31,6 +32,16 @@
   gap: 15px;
 }
 
+.navigation-box-header-main nav {
+  margin-top: 30px;
+}
+
 .box-footer {
   padding: 30px;
+}
+
+@media screen and (max-width: 640px) {
+  .container-header-main {
+    background-color: black;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -10,6 +10,7 @@
 
 .container-header-main {
   background-color: black;
+  padding: 10px;
 }
 
 .navigation-box-header-main .button-header-main {
@@ -20,6 +21,10 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+
+.navigation-box-header-main nav {
+  margin-top: 30px;
 }
 
 .box-footer {

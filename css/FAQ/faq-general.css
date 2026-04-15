@@ -174,13 +174,13 @@
 }
 
 .general-a {
-  color: white;
-}
-
-.setting-a {
   color: rgb(135, 88, 237);
   border-bottom: 2px solid rgb(135, 88, 237);
   padding-bottom: 10px;
+}
+
+.setting-a {
+  color: white;
 }
 
 .question-faq {

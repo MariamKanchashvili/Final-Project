@@ -123,8 +123,8 @@ background-color:  #251742;
 .search{display: flex;align-items: center; gap: 40px; border-bottom: 1px solid white;padding-bottom: 10px;cursor: pointer;
 p{white-space: nowrap;}}
 .setting-up-faq{ display: flex; gap: 40px; margin: 15px 0;}
-.general-a{ color: white;}
-.setting-a{ color: $main-color; border-bottom: 2px solid $main-color;padding-bottom: 10px;}
+.general-a{ color: $main-color; border-bottom: 2px solid $main-color;padding-bottom: 10px;}
+.setting-a{color: white; }
 .question-faq{
     display: flex;
     align-items: flex-start;
