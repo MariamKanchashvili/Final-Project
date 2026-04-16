@@ -106,12 +106,22 @@ button {
   border: none;
   border-radius: 50px;
   margin: 20px 0;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(135, 88, 237);
+  border: 2px solid white;
 }
 
 button span {
   color: rgb(135, 88, 237);
   font-size: 15px;
   font-weight: bold;
+}
+button span:hover {
+  background-color: rgb(135, 88, 237);
+  color: white;
+  text-decoration: underline;
 }
 
 .container-section2 {

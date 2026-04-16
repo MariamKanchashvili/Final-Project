@@ -39,7 +39,7 @@ $seen-color:rgb(107, 107, 107);
 .container-review{
     background-color: black;
     color: white;
-    padding: 40px;
+
 }
 .nav-review{
     display: flex;
@@ -96,13 +96,16 @@ $seen-color:rgb(107, 107, 107);
     .game-review{
         background-color: black;
         padding: 20px; 
+         max-width: 1100px;
+         margin-left: 140px;
     }
     .section-1{
         display: flex;
         justify-content: center;
         align-items: flex-start;
         gap: 20px;
-        flex-wrap: wrap
+        flex-wrap: wrap;
+        max-width: 1000px;
       
     }
     .product-photo{
@@ -197,6 +200,8 @@ $seen-color:rgb(107, 107, 107);
 .description-review{
     padding: 20px;
     position: relative;
+    max-width: 1100px;
+    margin-left: 220px;
 }
    .photos{
     display: flex;
@@ -253,6 +258,7 @@ $seen-color:rgb(107, 107, 107);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
 }
 .customer-review{
     background-color: black;
@@ -330,7 +336,7 @@ height: 100%;
     width: 100%;
     padding: 20px;
     img{width: 15px;}
-    // .first-side{font-weight: bold;}
+   
 
 .second-side{
     display: flex;
@@ -348,9 +354,9 @@ height: 100%;
 }
 .comment{
    border-top: 2px solid $seen-color;
-   margin: 10px 0;
    padding: 30px;
    gap: 10px;
+   margin: 0 30px;
    position: relative;
    font-family: sans-serif;
     span{font-size: 16px; }
@@ -380,6 +386,7 @@ height: 100%;
     position: absolute;
     right: 0;
     top: 10px;
+    cursor: pointer;
 }
 .comment-star{
     display: flex;
@@ -515,28 +522,113 @@ margin-top: 10px;
 .review-wrapper {flex-direction: column;gap: 20px;margin-bottom: 20px;}
 .customer-review{align-items: center;}
 }
-@media screen and (max-width:580px){ 
-.comments-nav{ border-top: 1px solid $seen-color;
-    .first-side{display: none;}
-    .second-side{
-    div{display: none;}
-    .comments-filter{display: none;}
-    .burger{
-    display: flex;
-    justify-content: flex-start;
-    gap: 10px;
-    padding: 10px;
-   }
-}
- .product-photo{
-            img{width: 100%;}
+// @media screen and (max-width:580px){ 
+// .comments-nav{ border-top: 1px solid $seen-color;
+//     .first-side{display: none;}
+//     .second-side{
+//     div{display: none;}
+//     .comments-filter{display: none;}
+//     .burger{
+//     display: flex;
+//     justify-content: flex-start;
+//     gap: 10px;
+//     padding: 10px;
+//    }
+// }
+//  .product-photo{
+//             img{width: 100%;}
     
         
-        }
+//         }
+// }
+// .comment{
+//     .burger-text{display: block;font-family: sans-serif;font-size: 14px; margin: 10px 0;}
+// } 
+// }
+
+
+//     @media screen and (max-width:480px){
+//         .bar-review{display: none;}
+//         .control-review{display: none;}
+//         .preview-left{display: none;}
+//         .preview{display: none;}
+//         .burger-review{display: block;}
+//         .product-photo{
+//             img{width: 100%;}
+    
+        
+//         }
+//         .show-more{
+//         display: flex;
+//         gap: 10px;
+//         color: $main-color;
+//         margin-top: 10px;
+//         img{width: 15px;}}
+
+//     }
+//     @media screen and (max-width:380px){
+//         .section-1{gap: 0;}
+//         .product-photo{height: 340px;}
+//         .customer-review{
+//             span{
+//                 font-size: 13px;
+//                 white-space: nowrap;
+//             }
+//         }
+// .stars-review{img{width: 35px;}}
+// .customer-review button{padding: 10px 80px;font-size: 14px;}
+// .stars-scale{gap: 0;
+//     .level{width: 230px;}}
+//     }
+//     @media screen and (max-width:320px){
+// .product-wrapper{
+//     overflow: visible;
+//     position: relative;
+//     right: 16%;
+// }
+//     }
+
+@media screen and (max-width:1245px){
+    .game-review{margin-left: 40px;}
+    .description-review{margin-left: 130px;}
+    
 }
-.comment{
-    .burger-text{display: block;font-family: sans-serif;font-size: 14px; margin: 10px 0;}
-} 
+@media screen and (max-width:1197px){
+    .description-review{margin-left: 118px;}
+}
+@media screen and (max-width:1101px){
+    .description-review{margin-left: 74px;}
+}
+@media screen and (max-width:1037px){
+    .product-photo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+ .dots {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+margin-top: 10px;
+}
+.nav-review {flex-direction: column;}
+}
+@media screen and (max-width:1045px){
+    .description-review{
+        gap: 45px;
+        margin-left: 46px;
+    }
+}
+
+@media screen and (max-width:793px){
+ 
+
+.review-text{flex-wrap: wrap;}
+.article{width: 100%;}
+.photos{
+    display: none;
+}
 }
 
 
@@ -551,13 +643,9 @@ margin-top: 10px;
     
         
         }
-        .show-more{
-        display: flex;
-        gap: 10px;
-        color: $main-color;
-        margin-top: 10px;
-        img{width: 15px;}}
-
+@media screen and (max-width:439px){
+    .side2{h3{font-size:  35px; ;}}
+}
     }
     @media screen and (max-width:380px){
         .section-1{gap: 0;}
@@ -568,10 +656,16 @@ margin-top: 10px;
                 white-space: nowrap;
             }
         }
-.stars-review{img{width: 35px;}}
-.customer-review button{padding: 10px 80px;font-size: 14px;}
-.stars-scale{gap: 0;
-    .level{width: 230px;}}
+
+     .side2{h3{font-size: 30px;}}
+
+     .product-wrapper{flex-direction: column;}
+     .arrow{display: none;}
+     .chathead{z-index: 10000;}
+    }
+
+    @media screen and (max-width:337px){
+        .side2{h3{font-size:  25px; ;}}
     }
     @media screen and (max-width:320px){
 .product-wrapper{
@@ -579,7 +673,11 @@ margin-top: 10px;
     position: relative;
     right: 16%;
 }
+.game-review{padding: 10px;}
     }
+
+
+
 
 
 

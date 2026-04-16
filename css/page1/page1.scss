@@ -124,12 +124,23 @@ button {
   border: none;
   border-radius: 50px;
   margin: 20px 0;
+  cursor: pointer;
+  &:hover{
+    background-color: $main-color;
+    border:  2px solid white;
+  
+  }
 }
 
 button span {
   color: rgb(135, 88, 237);
   font-size: 15px;
   font-weight: bold;
+  &:hover{
+    background-color: $main-color;
+    color: white;
+    text-decoration: underline;
+  }
 }
 // SECTION2 
 

@@ -47,7 +47,7 @@ $seen-color:rgb(107, 107, 107);
 .container-review{
     background-color: black;
     color: white;
-    padding: 40px;
+   
 }
 .nav-review{
     display: flex;
@@ -104,13 +104,16 @@ $seen-color:rgb(107, 107, 107);
     .game-review{
         background-color: black;
         padding: 20px; 
+        max-width: 1100px;
+        margin-left: 140px;
     }
     .section-1{
         display: flex;
         justify-content: center;
         align-items: flex-start;
         gap: 20px;
-        flex-wrap: wrap
+        flex-wrap: wrap;
+    
       
     }
     .product-photo{
@@ -197,6 +200,8 @@ $seen-color:rgb(107, 107, 107);
 .description-review{
     padding: 20px;
     position: relative;
+     max-width: 1100px;
+    margin-left: 220px;
 }
    .photos{
     display: flex;
@@ -364,15 +369,42 @@ img{width: 20px;cursor: pointer;}
 }
 .arrow{.right{width: 20px; cursor:pointer}}
 
-
-
-@media screen and (max-width:793px){
-    .dots {
+@media screen and (max-width:1245px){
+    .game-review{margin-left: 40px;}
+    .description-review{margin-left: 130px;}
+    
+}
+@media screen and (max-width:1197px){
+    .description-review{margin-left: 118px;}
+}
+@media screen and (max-width:1101px){
+    .description-review{margin-left: 74px;}
+}
+@media screen and (max-width:1037px){
+    .product-photo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+ .dots {
   display: flex;
   gap: 8px;
   justify-content: center;
 margin-top: 10px;
 }
+.nav-review {flex-direction: column;}
+}
+@media screen and (max-width:1045px){
+    .description-review{
+        gap: 45px;
+        margin-left: 46px;
+    }
+}
+
+@media screen and (max-width:793px){
+ 
+
 .review-text{flex-wrap: wrap;}
 .article{width: 100%;}
 .photos{
@@ -392,7 +424,9 @@ margin-top: 10px;
     
         
         }
-
+@media screen and (max-width:439px){
+    .side2{h3{font-size:  35px; ;}}
+}
     }
     @media screen and (max-width:380px){
         .section-1{gap: 0;}
@@ -404,6 +438,15 @@ margin-top: 10px;
             }
         }
 
+     .side2{h3{font-size: 30px;}}
+
+     .product-wrapper{flex-direction: column;}
+     .arrow{display: none;}
+     .chathead{z-index: 10000;}
+    }
+
+    @media screen and (max-width:337px){
+        .side2{h3{font-size:  25px; ;}}
     }
     @media screen and (max-width:320px){
 .product-wrapper{
@@ -411,6 +454,7 @@ margin-top: 10px;
     position: relative;
     right: 16%;
 }
+.game-review{padding: 10px;}
     }
 
 

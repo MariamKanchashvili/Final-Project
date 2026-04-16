@@ -16,7 +16,7 @@
     .box-footer{
     background-color: black;
     color: white;
-    padding: 15px;
+    padding: 35px;
     position: relative;
 }
 .main-footer{
@@ -144,6 +144,7 @@ li,a{ font-family: sans-serif ;}
     .main-footer {padding:0; gap: 10px;}
 }
 @media screen and (max-width:400px){
+    .box-footer{padding: 30px;}
     .menu-footer{
         display: flex;
         flex-flow: column wrap;
