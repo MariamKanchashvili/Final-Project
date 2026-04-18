@@ -5,6 +5,12 @@
     list-style: none;
     text-decoration: none;
 }
+@import url(../css/header-style/header-style.css);
+@import url(../css/footer/footer.css);
+.container-header-main {
+  background-color:black;}
+  .navigation-box-header-main { .button-header-main{background-color: black;}    }
+
 
 @font-face {
     font-family:"pine" ;
@@ -21,6 +27,7 @@ $bottom-border-color:rgb(189, 177, 177);
     display: grid;
     grid-template-columns: 70% 1fr;
     gap: 30px;
+    padding: 0 40px;
 }
 .checkout1{display: none;}
 .my-cart-name{
