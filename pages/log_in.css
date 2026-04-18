@@ -1,0 +1,196 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "login";
+  src: url(./fonts/pine_font/PineWords-xRZZR.ttf);
+}
+.log-in {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 25px;
+  padding: 25px;
+  width: 400px;
+  max-width: 100%;
+  font-family: "login";
+}
+.form-box a {
+  color: black;
+  text-decoration: underline;
+}
+
+.form-header {
+  text-align: center;
+  font-size: 42px;
+}
+
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+input {
+  height: 45px;
+  padding: 0 12px;
+  border-radius: 10px;
+  border: none;
+}
+input:hover {
+  background-color: blueviolet;
+  border: 2px solid white;
+}
+
+.input-wrapper {
+  position: relative;
+}
+.input-wrapper input {
+  padding-right: 80px;
+}
+
+.show {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.show img {
+  width: 30px;
+}
+.show span {
+  font-size: 14px;
+}
+
+.wrapper_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.forgot {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.media {
+  display: flex;
+  cursor: pointer;
+}
+
+.log-button {
+  border-radius: 25px;
+  padding: 8px 15px;
+  border: none;
+  font-family: "login";
+  font-size: 16px;
+  color: blueviolet;
+  cursor: pointer;
+}
+.log-button:hover {
+  background-color: blueviolet;
+  border: 2px solid white;
+  color: white;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  .form-box {
+    width: 60%; /* უფრო ფართო ხდება ტაბლეტზე */
+  }
+  .form-header {
+    font-size: 36px; /* ტექსტი ოდნავ მცირდება */
+  }
+}
+@media screen and (max-width: 768px) {
+  .form-box {
+    width: 70%; /* თითქმის მთელ სიგანეს იკავებს */
+    padding: 20px;
+  }
+  .form-header {
+    font-size: 30px;
+  }
+  input {
+    height: 45px; /* vh-ის ნაცვლად px უკეთ მუშაობს */
+  }
+  .wrapper_footer {
+    grid-template-columns: 1fr; /* 2 სვეტიდან → 1 სვეტი */
+    gap: 20px;
+    text-align: center;
+  }
+  .forgot {
+    align-items: center; /* ცენტრში ტექსტები */
+  }
+}
+@media screen and (max-width: 480px) {
+  .form-box {
+    width: 100%; /* სრული სიგანე */
+    border-radius: 15px;
+    padding: 15px;
+  }
+  .form-header {
+    font-size: 24px; /* პატარა ეკრანზე დიდი ტექსტი ცუდად გამოიყურება */
+  }
+  label {
+    font-size: 14px;
+  }
+  input {
+    height: 40px;
+    font-size: 14px;
+  }
+  .show {
+    top: 21px;
+  }
+  .show img {
+    width: 20px;
+  }
+  .show span {
+    font-size: 12px;
+  }
+  .log-button {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+  .media img {
+    width: 60px; /* სოციალური აიქონები პატარავდება */
+  }
+}/*# sourceMappingURL=log_in.css.map */

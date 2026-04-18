@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./Cart.css">
+</head>
+<body>
+    <div class="cart_container">
+       <button class="checkout1">Checkout</button>
+   <div class="my-cart">
+    <div class="my-cart-name">My cart</div>
+       <div class="my-cart-wrapper">
+          <div class="my-cart-item">
+            
+              <div class="cart-item-photo"><img src="./gameflow.avif" alt="gameflow"></div>
+              <div class="cart-item-name">
+                 <p>Gameflow Black</p>
+                 <span class="current-price">$900</span>
+              </div>
+
+              <div class="quantity">
+                 <img src="./minus-alt-svgrepo-com.svg" alt="minus">
+                 1
+                 <img src="./plus-thin-svgrepo-com.svg" alt="plus">
+              </div>
+             
+                <div class="sale-price">
+                 <span class="old-price">$1,000.00</span>
+                 <span class="current-price">$900.00</span>
+                </div>
+
+                 <div class="trash">
+                 <img src="./trash-bin-trash-svgrepo-com.svg" alt="trash-icon">
+                 </div>
+          </div>
+          <div class="my-cart-item">
+            <div class="cart-item-photo"><img src="./L503.avif" alt="L503"></div>
+              <div class="cart-item-name">
+                 <p>L503 Headset</p>
+                 <span class="current-price">$26.99</span>
+              </div>
+
+              <div class="quantity">
+                 <img src="./minus-alt-svgrepo-com.svg" alt="minus">
+                 1
+                 <img src="./plus-thin-svgrepo-com.svg" alt="plus">
+              </div>
+             
+                <div class="sale-price">
+                 <span class="old-price">$29.99</span>
+                 <span class="current-price">$26.99</span>
+                </div>
+
+                 <div class="trash">
+                 <img src="./trash-bin-trash-svgrepo-com.svg" alt="trash-icon">
+                 </div>
+          </div>
+          <div class="my-cart-item">
+            <div class="cart-item-photo"><img src="./blaze.avif" alt="blaze mouse"></div>
+              <div class="cart-item-name">
+                 <p>Blaze Wireless Mouse</p>
+                 <span class="old-price"></span>
+                 <span class="current-price">$24.99</span>
+              </div>
+
+              <div class="quantity">
+                 <img src="./minus-alt-svgrepo-com.svg" alt="minus">
+                 1
+                 <img src="./plus-thin-svgrepo-com.svg" alt="plus">
+              </div>
+             
+                <div class="sale-price">
+                 <span class="current-price">$24.99</span>
+                </div>
+
+                 <div class="trash">
+                 <img src="./trash-bin-trash-svgrepo-com.svg" alt="trash-icon">
+                 </div></div>
+             
+               
+               <div class="cart-footer-wrapper">
+            
+               <div class="promo-code">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M19,11.7071068 L11.2071068,19.5 C10.8165825,19.8905243 10.1834175,19.8905243 9.79289322,19.5 L4.5,14.2071068 C4.10947571,13.8165825 4.10947571,13.1834175 4.5,12.7928932 L12.2928932,5 L19,5 L19,11.7071068 Z M18,6 L12.7071068,6 L5.20710678,13.5 L10.5,18.7928932 L18,11.2928932 L18,6 Z M15,10 C14.4477153,10 14,9.55228475 14,9 C14,8.44771525 14.4477153,8 15,8 C15.5522847,8 16,8.44771525 16,9 C16,9.55228475 15.5522847,10 15,10 Z"></path></svg>
+                  <a href="#">Enter a promo code</a>
+                </div>
+                <div class="apply">
+                  <input type="text" placeholder="e.g.,SAVE50">
+                  <button>Apply</button>
+                </div>
+                  <div class="add-note">
+                <div class="promo-code ">
+                     <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M13,6.70710678 L13,9 L15.2928932,9 L13,6.70710678 Z M17,19 C17,19.5522847 16.5522847,20 16,20 L7,20 C6.44771525,20 6,19.5522847 6,19 L6,6 C6,5.44771525 6.44771525,5 7,5 L12.7099045,5 L17,9.2995551 L17,19 Z M16,10 L12,10 L12,6 L7,6 L7,19 L16,19 L16,10 Z"></path></svg>
+                    <a href="#">Add a note</a>
+                  </div>
+                <div class="text-area"> <textarea  placeholder="e.g., Leave outside the front door"></textarea></div>
+                </div></div>
+
+
+
+         </div>
+          
+    </div>
+
+    <div class="order-summary">
+      <div class="order-summary-name">Order summary</div>
+      <div class="order-summary-item">
+         <span>Subtotal</span>
+         <span class="subtotal">$951.98</span>
+      </div>
+       <div class="order-summary-item">
+         <span>delivery</span>
+         <span class="delivery-icon">--</span>
+      </div>
+       
+      <div class="order-summary-item last" >
+         <span class="underline">Georgia</span>
+      </div>
+       <button class="checkout">Checkout</button>
+       <div class="secure">
+         <svg width="11" height="14" viewBox="0 0 11 14" xmlns="http://www.w3.org/2000/svg" class="QXycij" data-hook="SecureCheckoutDataHook.lock"><g fill="currentColor" fill-rule="evenodd"><path d="M0 12.79c0 .558.445 1.01.996 1.01h9.008A1 1 0 0 0 11 12.79V6.01c0-.558-.445-1.01-.996-1.01H.996A1 1 0 0 0 0 6.01v6.78Z"></path><path d="M9.5 5v-.924C9.5 2.086 7.696.5 5.5.5c-2.196 0-4 1.586-4 3.576V5h1v-.924c0-1.407 1.33-2.576 3-2.576s3 1.17 3 2.576V5h1Z" fill-rule="nonzero"></path></g></svg>
+         <span>Secure Checkout</span>
+       </div>
+    </div>
+ </div>
+</body>
+</html>

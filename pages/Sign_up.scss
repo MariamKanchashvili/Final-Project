@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+@font-face {
+    font-family:"login" ;
+    src: url(./fonts/pine_font/PineWords-xRZZR.ttf);
+}
+.container-signup{
+    background-image: url(./phone.png);
+    min-height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: blueviolet;
+}
+.form-signup{
+display: grid;
+grid-template-columns: 64px 1fr;
+
+input{
+ 
+    height: 45px;
+}
+}
+.name-wrapper{
+    display: flex;
+   gap: 5px;
+   align-items: flex-start;
+}
+.line{
+    display: flex;
+    flex-direction: column;
+   
+}
+.short{
+    width: 60px;
+}
