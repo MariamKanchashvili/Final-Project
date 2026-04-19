@@ -173,4 +173,9 @@
     margin: 0;
     padding: 0;
   }
+}
+@media screen and (max-width: 371px) {
+  .chathead {
+    right: -108px;
+  }
 }/*# sourceMappingURL=footer.css.map */

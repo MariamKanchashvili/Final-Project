@@ -96,6 +96,20 @@
   display: none;
 }
 
+@media screen and (max-width: 660px) {
+  .logo-header-main {
+    max-width: 40px;
+  }
+  .container-header-main {
+    padding: 10px;
+  }
+  .container-header-main .inner-box-header-main span {
+    font-size: 15px;
+  }
+  .burger-menu-header-main img {
+    width: 50px;
+  }
+}
 @media screen and (max-width: 640px) {
   .container-header-main {
     background-color: black;
@@ -127,5 +141,10 @@
   }
   .navigation-box-header-main svg {
     max-width: 26px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .inner-box-header-main {
+    gap: 40px;
   }
 }/*# sourceMappingURL=header-style.css.map */

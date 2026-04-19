@@ -163,4 +163,6 @@ li,a{ font-family: sans-serif ;}
 
 }
 
-
+@media screen and (max-width:371px){
+  .chathead{right: -108px;}
+}
