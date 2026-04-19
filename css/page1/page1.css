@@ -864,6 +864,9 @@ button span:hover {
     height: 60px;
     margin-right: 20px;
   }
+  .content-section7 {
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 370px) {
   .second-side img {

@@ -752,6 +752,7 @@ width: 100%;
   .card{max-width: 375px;}
   .form-box8 {padding: 70px};
    .chathead{width: 60px;height: 60px;margin-right: 20px;}
+   .content-section7{flex-direction: column;}
 }
 @media screen and (max-width:370px){
   .second-side{img{height: 55vh; right: 10px;top: 230px;margin-left: 103px;margin-top:  120px; ;}}
@@ -761,4 +762,6 @@ width: 100%;
   .checkbox8{width: 215px;}}
   .text-box6{h2{font-size: 30px;}h3{font-size: 15px;}}
   .chathead{margin-right: 137px;width: 60px;height: 60px;}
+
+  
 }

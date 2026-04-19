@@ -72,6 +72,7 @@ $bottom-border-color:rgb(189, 177, 177);
 .apply{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 10px;
     input{
         height:6vh;
@@ -172,7 +173,7 @@ textarea{
         height: 5vh;
         font-size: 12px;
     }
-    textarea{width: 270px;}
+    textarea{width: 250px;}
 }
 @media screen and (max-width:490px){
     .my-cart-item{padding: 10px 0;}
