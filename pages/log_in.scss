@@ -5,6 +5,13 @@
     list-style: none;
     text-decoration: none;
 }
+@import url(../css/header-style/header-style.css);
+@import url(../css/footer/footer.css);
+.container-header-main {
+  background-color:black;}
+.navigation-box-header-main { .button-header-main{background-color: black;}    }
+
+
 @font-face {
     font-family:"login" ;
     src: url(./fonts/pine_font/PineWords-xRZZR.ttf);

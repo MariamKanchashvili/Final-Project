@@ -22,6 +22,10 @@
   gap: 15px;
 }
 
+.navigation-box-header-main nav {
+  margin-top: 30px;
+}
+
 .store-footer ul {
   margin-left: -15px;
 }
