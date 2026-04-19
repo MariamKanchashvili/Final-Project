@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+@import url(./css/header-style/header-style.css);
+@import url(./css/footer/footer.css);
+.container-header-main {
+  background-color:black;}
+.navigation-box-header-main { .button-header-main{background-color: black;}    }
+
+@font-face {
+    font-family: "pine";
+    src: url(./pages/fonts/pine_font/PineWords-xRZZR.ttf);
+}
+$font-pine:"pine";
+$main-color:rgb(135, 88, 237);
+.booking {
+  padding: 40px;
+  background:black;
+  color:white;
+  min-height: 100vh;
+  font-family: $font-pine;
+
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; // calendar + time
+    gap: 40px;
+    margin-top: 30px;
+  }
+  &__header{
+    display: flex;
+    flex-direction: column;
+    span{
+      font-size: 42px;
+      color: $main-color;
+    }}
+   h2{padding-top: 30px;color: $main-color;} 
+  
+  .subtitle{
+    border-bottom: 1px solid $main-color;
+    padding-bottom: 15px;
+  }
+}
+
+// radio დამალვა — ვიზუალურად label
+input[type="radio"] {
+  display: none;
+}
+
+//  CALENDAR 
+.calendar {
+  background-color:black;
+  padding: 20px;
+  border-radius: 12px;
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    img{width: 20px;}
+  }
+
+  &__weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    opacity: 0.6;
+    margin: 15px 0;
+    padding-left: 15px;
+    gap: 19px;
+  }
+
+  &__days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); // 7 დღე კვირაში
+    gap: 8px;
+
+    label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      border-radius: 8px;
+      cursor: pointer;
+
+      &:hover {
+        background: #1f2937;
+      }
+    }
+
+    /* 
+    
+    როცა radio არის checked → მის შემდეგ label სტილდება
+    */
+    input:checked + label {
+      background:$main-color; 
+      color:white;
+      font-weight: bold;
+    }
+  }
+}
+
+/* TIME */
+.time {
+  background:black;
+  padding: 20px;
+  border-radius: 12px;
+   h3{margin-bottom: 10px;}
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+    label {
+      padding: 12px;
+      border: 1px solid #374151;
+      border-radius: 8px;
+      text-align: center;
+      cursor: pointer;
+
+      &:hover {
+        background: #1f2937;
+      }
+    }
+
+    input:checked + label {
+      background: $main-color;
+      border: none;
+      color: white;
+      font-weight: bold;
+    }
+  }
+
+  .confirm {
+    margin-top: 20px;
+    width: 100%;
+    padding: 14px;
+    background: $main-color;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: $font-pine;
+    font-size: 16px;
+    &:hover{text-decoration: underline;text-decoration-color: white;text-decoration-thickness: 4px;}
+  }
+}
+.service{
+  line-height: 1.9;
+  padding-left: 10px;
+  &__header{
+    border-bottom: 1px solid $main-color;
+    padding-bottom: 15px;
+    font-size: 20px;
+  }
+  .cart-item{
+    padding-top: 10px;
+  }
+}
+// responsive
+@media screen and (max-width: 900px) {
+  .booking__container {
+    grid-template-columns: 1fr;
+  }
+.calendar__weekdays{
+    padding-left: 40px;
+    gap: 50px;
+}
+  .time__grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width:630px){
+   .calendar__weekdays{
+    padding-left: 22px;
+    gap: 32px;
+} 
+}
+@media screen and (max-width:520px){
+ 
+   .calendar{padding: 10px;}
+   .booking{
+    &__header{
+      span{font-size: 35px;}
+    }
+   }
+} 
+@media screen and (max-width:450px){
+   .calendar{font-size: 14px;}
+   .booking{
+    padding: 10px;
+    h2{font-size: 21px;text-align: center;}
+    .subtitle{
+      text-align: center;
+      font-size:15px;
+    }
+    .booking{
+    &__header{
+      span{font-size: 28px;padding-top: 10px;}
+      text-align: center;
+    }
+   }
+   }
+   .time{
+    h3{
+    font-size: 18px;
+    text-align: center;
+}
+   }
+   .calendar__weekdays{
+    font-size: 12px;
+ padding-left: 17px;
+    gap: 22px;}
+} 
+@media screen and (max-width:320px){
+    .booking{padding: 0;}
+}
