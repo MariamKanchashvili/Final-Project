@@ -162,7 +162,7 @@ $seen-color:rgb(107, 107, 107);
         width: 30%;
         height: 5vh;
         gap: 8px;
-        img{width: 25px;}
+        img{width: 16px;}
         span{font-size: 18px;font-family: $proxima-font;}
     }
 .button-wrapper{
@@ -376,6 +376,8 @@ img{width: 20px;cursor: pointer;}
 }
 @media screen and (max-width:1197px){
     .description-review{margin-left: 118px;}
+    .arrow{display: none;}
+    .product-wrapper{flex-wrap: wrap;justify-content: center;align-items: center;}
 }
 @media screen and (max-width:1101px){
     .description-review{margin-left: 74px;}

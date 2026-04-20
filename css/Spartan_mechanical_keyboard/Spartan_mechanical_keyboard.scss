@@ -1,1 +1,14 @@
 @import url(../L503Headset-review/L503Headsetpage.css);
+.game-review{
+    .section-1{flex-wrap: nowrap;}
+}
+.section-1{
+    gap: 80px;
+    margin-left: 150px;
+}
+
+@media screen and (max-width:800px){
+    .game-review{
+        .section-1{flex-wrap: wrap;}
+    }
+}

@@ -83,10 +83,10 @@ $main-color:rgb(135, 88, 237);
 
 }
 .map-faq{
-     width: 100%;
+     width: 80%;
      max-width: 400px;
      iframe{
-        width: 100%;
+        width: 80%;
         height: 100%;
         min-height: 200px;
      }
@@ -215,8 +215,8 @@ p{white-space: nowrap;}}
         h1{ font-size: 40px;margin-bottom: 30px;}
      
 }}
-.section-faq1{span{flex-wrap: wrap;}}
-.map-faq{width:200px ;height:100px;} /*ზედმეტია,სხვანაირად ვერ გაისტილა*/
+
+
 }
 
 @media screen and (max-width:410px){
@@ -233,7 +233,7 @@ p{white-space: nowrap;}}
 
 @media screen and (max-width:320px){
     .header-faq{
-        h1{ font-size: 32px;}
+        h1{ font-size: 28px;}
     }
    .question-faq{   
      width: 135%;
@@ -249,4 +249,23 @@ border-top: none;}
 .section-faq2 h2 {
         right: 17%;
         width: 134%;}
+}
+@media screen and (max-width:430px){
+   .faq-side1{
+ 
+    .map-faq{width: 280px;
+        iframe{width: 78%;}
+    }
+   }
+   .section-faq1{
+    span{font-size: 15px;}
+   } 
+}
+@media screen and (max-width:365px){
+    .section-faq1 .header-faq h1{font-size: 32px;}
+    .faq-side1{
+        p,a,span{font-size: 15px;}
+        line-height: 1.0;
+    }
+
 }

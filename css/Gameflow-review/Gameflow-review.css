@@ -209,7 +209,7 @@
   gap: 8px;
 }
 .side2 .quantity-box img {
-  width: 25px;
+  width: 16px;
 }
 .side2 .quantity-box span {
   font-size: 18px;
@@ -442,6 +442,14 @@
 @media screen and (max-width: 1197px) {
   .description-review {
     margin-left: 118px;
+  }
+  .arrow {
+    display: none;
+  }
+  .product-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media screen and (max-width: 1101px) {

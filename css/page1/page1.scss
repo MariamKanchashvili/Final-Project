@@ -677,21 +677,20 @@ img{width: 20px;cursor: pointer;}
    width: 50%;
    position: relative;
    left: 26%;
- &:hover{
-    background-color: white;
   
-  }
+   }
+
 
   span{font-size: 15px;
   font-family: "montserrat-bold";
   color: white; 
-&:hover{color: $main-color;text-decoration: underline;}}
+&:hover{color:white;text-decoration: underline;}}
 
  
  }
 
 
-}
+
 // section 8
 
 .form-box8{

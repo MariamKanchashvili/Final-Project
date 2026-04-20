@@ -719,16 +719,13 @@ button span:hover {
   position: relative;
   left: 26%;
 }
-.scrollbar7 .games-button:hover {
-  background-color: white;
-}
-.scrollbar7 .games-button span {
+.scrollbar7 span {
   font-size: 15px;
   font-family: "montserrat-bold";
   color: white;
 }
-.scrollbar7 .games-button span:hover {
-  color: rgb(135, 88, 237);
+.scrollbar7 span:hover {
+  color: white;
   text-decoration: underline;
 }
 

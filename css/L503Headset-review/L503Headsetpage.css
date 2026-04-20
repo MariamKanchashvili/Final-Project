@@ -209,7 +209,7 @@
   gap: 8px;
 }
 .side2 .quantity-box img {
-  width: 25px;
+  width: 16px;
 }
 .side2 .quantity-box span {
   font-size: 18px;
@@ -627,6 +627,14 @@
   .description-review {
     margin-left: 118px;
   }
+  .arrow {
+    display: none;
+  }
+  .product-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media screen and (max-width: 1101px) {
   .description-review {
@@ -667,6 +675,11 @@
     display: none;
   }
 }
+@media screen and (max-width: 560px) {
+  .first-side {
+    display: none;
+  }
+}
 @media screen and (max-width: 480px) {
   .bar-review {
     display: none;
@@ -691,6 +704,12 @@
   .side2 h3 {
     font-size: 35px;
   }
+  .second-side p {
+    font-size: 15px;
+  }
+  .second-side img {
+    width: 10px;
+  }
 }
 @media screen and (max-width: 380px) {
   .section-1 {
@@ -702,6 +721,12 @@
   .customer-review span {
     font-size: 13px;
     white-space: nowrap;
+  }
+  .stars-scale .level {
+    width: 220px;
+  }
+  .stars-review img {
+    width: 40px;
   }
   .side2 h3 {
     font-size: 30px;
@@ -719,6 +744,12 @@
 @media screen and (max-width: 337px) {
   .side2 h3 {
     font-size: 25px;
+  }
+  .comment span {
+    font-size: 13px;
+  }
+  .reply {
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 320px) {

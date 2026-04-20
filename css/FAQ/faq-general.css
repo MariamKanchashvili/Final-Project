@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url(../header-style/header-style.css);
 @import url(../footer/footer.css);
 * {
@@ -100,11 +99,11 @@
 }
 
 .map-faq {
-  width: 100%;
+  width: 80%;
   max-width: 400px;
 }
 .map-faq iframe {
-  width: 100%;
+  width: 80%;
   height: 100%;
   min-height: 200px;
 }
@@ -290,13 +289,6 @@
     font-size: 40px;
     margin-bottom: 30px;
   }
-  .section-faq1 span {
-    flex-wrap: wrap;
-  }
-  .map-faq {
-    width: 200px;
-    height: 100px;
-  } /*ზედმეტია,სხვანაირად ვერ გაისტილა*/
 }
 @media screen and (max-width: 410px) {
   .faq-side1 h1 {
@@ -316,8 +308,8 @@
   }
 }
 @media screen and (max-width: 320px) {
-  .header-faq h1 {
-    font-size: 32px;
+  .section-faq1 .header-faq h1 {
+    font-size: 25px;
   }
   .question-faq {
     width: 135%;
@@ -337,5 +329,27 @@
   .section-faq2 h2 {
     right: 17%;
     width: 134%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .faq-side1 .map-faq {
+    width: 280px;
+  }
+  .faq-side1 .map-faq iframe {
+    width: 78%;
+  }
+  .section-faq1 span {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 365px) {
+  .section-faq1 .header-faq h1 {
+    font-size: 32px;
+  }
+  .faq-side1 p, .faq-side1 a, .faq-side1 span {
+    font-size: 15px;
+  }
+  .faq-side1 {
+    line-height: 1;
   }
 }/*# sourceMappingURL=faq-general.css.map */

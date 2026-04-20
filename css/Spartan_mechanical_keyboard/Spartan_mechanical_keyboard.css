@@ -1,1 +1,15 @@
-@import url(../L503Headset-review/L503Headsetpage.css);/*# sourceMappingURL=Spartan_mechanical_keyboard.css.map */
+@import url(../L503Headset-review/L503Headsetpage.css);
+.game-review .section-1 {
+  flex-wrap: nowrap;
+}
+
+.section-1 {
+  gap: 80px;
+  margin-left: 150px;
+}
+
+@media screen and (max-width: 800px) {
+  .game-review .section-1 {
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=Spartan_mechanical_keyboard.css.map */
