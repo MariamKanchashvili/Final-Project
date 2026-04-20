@@ -75,8 +75,8 @@ input[type=radio] {
   grid-template-columns: repeat(7, 1fr);
   opacity: 0.6;
   margin: 15px 0;
-  padding-left: 15px;
-  gap: 19px;
+  padding-left: 30px;
+  gap: 30px;
 }
 .calendar__days {
   display: grid;
