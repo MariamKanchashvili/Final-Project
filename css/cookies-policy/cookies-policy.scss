@@ -67,6 +67,11 @@ border-top: 1px solid $bordercolor;
  margin-top: 30px;
  p{max-width: 740px;}
  }
+ @media screen and (max-width:821px){
+    .container-cookies{
+        padding: 14px;
+    }
+ }
 @media screen and (max-width:807px){
     .header-cookies{
         h1{ font-size: 50px;}

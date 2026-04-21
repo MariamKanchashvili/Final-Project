@@ -66,10 +66,6 @@
   width: 100%;
 }
 
-.short {
-  max-width: 100px;
-}
-
 .long {
   width: 100%;
 }
@@ -93,7 +89,7 @@
   cursor: pointer;
   opacity: 0.8;
   max-width: 100%;
-  width: 420px;
+  width: 500px;
 }
 .confirm-button:hover {
   background-color: blueviolet;
@@ -106,13 +102,23 @@
   .form-signup {
     grid-template-columns: 1fr;
   }
-}
-@media screen and (max-width: 450px) {
-  .confirm-button {
-    width: 250px;
-    max-width: 80%;
-  }
   .name-wrapper {
     flex-wrap: wrap;
+  }
+  .confirm-button {
+    width: 400px;
+    max-width: 95%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .confirm-button {
+    width: 350px;
+    max-width: 95%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .confirm-button {
+    width: 270px;
+    max-width: 95%;
   }
 }/*# sourceMappingURL=Sign_up.css.map */

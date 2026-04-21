@@ -976,6 +976,7 @@ button span:hover {
   }
   .first-side {
     left: 45px;
+    top: 100px;
   }
   .text {
     padding: 20px;
@@ -1014,13 +1015,13 @@ button span:hover {
 }
 @media screen and (max-width: 500px) {
   .header-section2 h2 {
-    font-size: 30px;
+    font-size: 22px;
   }
   .header-section3 h2 {
-    font-size: 30px;
+    font-size: 22px;
   }
   .header-section7 h2 {
-    font-size: 30px;
+    font-size: 27px;
     margin-bottom: 15px;
   }
   .chathead {
@@ -1140,6 +1141,18 @@ button span:hover {
   .second-side img {
     height: 48vh;
     top: 260px;
+  }
+  .product-wrapper {
+    position: relative;
+    left: 5px;
+  }
+  .button-view {
+    position: relative;
+    left: -13px;
+  }
+  .header-section7 a {
+    position: relative;
+    left: -18px;
   }
 }
 @media screen and (max-width: 310px) {
@@ -1332,7 +1345,7 @@ button span:hover {
     bottom: -21px;
   }
 }
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 323px) {
   .card-section4 {
     width: 281px;
     height: 30vh;

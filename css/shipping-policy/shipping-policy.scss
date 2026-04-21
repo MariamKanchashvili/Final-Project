@@ -76,6 +76,11 @@ padding: 30px 60px
 
 
 // -----------------footer_shipping Responsive 
+@media screen and (max-width:821px){
+    .container-shipping{
+        padding: 14px;
+    }
+ }
 @media screen and (max-width:480px){
     .wrapper-shipping{.header-shipping{ 
         h1 {font-size: 40px; text-align: flex-start;}

@@ -76,6 +76,11 @@ border-top: 1px solid $bordercolor;
  p{max-width: 740px;}
  }
 
+ @media screen and (max-width:821px){
+    .container-privacy{
+        padding: 14px;
+    }
+ }
  @media screen and (max-width:530px){
     .header-privacy{
         h1{ font-size: 40px;}

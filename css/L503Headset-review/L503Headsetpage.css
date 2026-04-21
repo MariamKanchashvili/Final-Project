@@ -129,8 +129,8 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 20px;
-  flex-wrap: wrap;
+  gap: 80px;
+  margin-left: 150px;
   max-width: 1000px;
 }
 
@@ -662,6 +662,12 @@
   .description-review {
     gap: 45px;
     margin-left: 46px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .game-review .section-1 {
+    flex-wrap: wrap;
+    margin-left: 0;
   }
 }
 @media screen and (max-width: 793px) {

@@ -46,6 +46,11 @@
     margin-top: 60px
 }
 
+@media screen and (max-width:821px){
+    .container-refund{
+        padding: 14px;
+    }
+ }
 @media screen and (max-width:780px){
     .header-refund{
     h1{ 
