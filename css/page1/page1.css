@@ -1344,6 +1344,9 @@ button span:hover {
     left: -124px;
     bottom: -21px;
   }
+  .games8 img {
+    bottom: 45px;
+  }
 }
 @media screen and (max-width: 323px) {
   .card-section4 {
